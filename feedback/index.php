@@ -1,3 +1,5 @@
+<!--include vs require:
+    Include means even if the link couldn't be found the rest of the code wont crash, require is the reverse.-->
 <?php include 'inc/header.php'; ?>
 
 <?php
@@ -45,8 +47,6 @@
     }
   }
 ?>
-<!--include vs require:
-    Include means even if the link couldn't be found the rest of the code wont crash, require is the reverse.-->
     <img src="/php-crash/feedback/img/logo-moonton.png" class="w-25 mb-3" alt="">
     <h2>Feedback</h2>
     <p class="lead text-center">Leave feedback for Moonton Media</p>
